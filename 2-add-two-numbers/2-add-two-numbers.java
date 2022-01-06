@@ -56,8 +56,6 @@ class Solution {
 
         if( carry != 0 )
             current.next = new ListNode(carry);
-        
-        System.out.println(head.val);
 
         return head;        
     }
